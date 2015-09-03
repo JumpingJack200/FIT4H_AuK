@@ -6,7 +6,7 @@ Drei Schritte zum Aktualisieren:
    #  . steht für das aktuelle Verzeichnis
    # -A steht für alle geänderten, hinzugefügten, gelöschten Dateien
 
-3. git commit -am 'Was passiert ist'
+3. git commit -am 'Was passiert ist' muss immer was reingeschrieben werden
 	# Bestätigung der Änderungen lokal
 
 4. git push origin master
