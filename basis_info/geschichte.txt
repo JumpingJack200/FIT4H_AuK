@@ -1,0 +1,160 @@
+1.1 Linux ist Open Source und wird frei zur Verfügung gestellt und es wird von einer Gemeinde ins Netz gestellt.
+
+1.2. Die wichtigsten Wissensfelder sind: 
+- Open Source Philosophie
+- Ausschüttungen
+- Embedded System
+
+Es wird bei Android, Debian und CentOS verwendet.
+
+Die wichtigsten Wissensfelder sind: Windows, Mac und Linux unterschiede und Verteilung Lebenszyklus-Management
+
+GUI gegen Kommandoziele und Desktop Konfiguration verwendet.
+Wartungszyklen, Beta und stabil
+
+1.3 Die Definition von Linux : Es wird gemeint das es der Kernel von einem System ist, welches der Zentrale Controller ist, was auf einem Rechner passiert.
+
+Unix war ein Operationssystem erstellt von AT&T Bell Labs in den 70er Jahren.
+
+UNIX ist nun sowohl eine Marke und eine Spezifikation, die von einem Industriekonsortium im Besitz namens Open Group ist. 
+
+Nur Software, die von der Open Group zertifiziert wurde, kann sich UNIX rufen. Trotz der Annahme alle Anforderungen der UNIX-Spezifikation, hat Linux nicht zertifiziert, so dass Linux ist wirklich nicht UNIX! Es ist nur ... UNIX-like.
+
+1.3.1 Rolle des Kernels
+Der Kernel des Betriebssystems ist wie ein Fluglotse auf einem Flughafen. Der Kernel schreibt, welches Programm erhält, welche Teile des Speichers, es beginnt und tötet Programme, und es verarbeitet die Anzeige von Text auf einem Monitor. Wenn eine Anwendung auf die Festplatte geschrieben werden muss, müssen Sie das Betriebssystem fragen ob es möglich ist. Wenn zwei Anwendungen eine Anfrage für die gleiche Ressource stattfindet entscheidet der Kernel welches er nimmt, die er erhält, und in einigen Fällen, tötet er eine der Anwendungen, um den Rest des Systems zu speichern.
+
+Der Kernel behandelt auch Schaltungen von Anwendungen. Ein Computer wird eine kleine Anzahl von CPUs haben und eine begrenzte Speichermenge. Der Kernel kümmert Entladen einer Aufgabe und dem Laden einer neuen Aufgabe, wenn es mehr Aufgaben als CPUs gibt. Wenn die aktuelle Task eine ausreichende Zeitdauer ausgeführt wird, unterbricht die CPU die Aufgabe, so dass eine andere ausgeführt werden kann. Dies wird als vorbeugende Multitasking bezeichnet. Multitasking bedeutet, dass der Computer mehrere Aufgaben auf einmal zu tun hat, und Präventiv bedeutet, dass der Kernel die Entscheidung hat, wann der Fokus zwischen Aufgaben wechselt. Mit den Aufgaben schnell schaltende Bewegungen, scheint es, dass der Computer auf einmal viele Dinge zu tun hat.
+
+Jede Anwendung denkt, dass es einen großen Block des Speichers auf dem System zur Verfügung hat, aber es ist der Kernel, der diese Illusion vorbehält, Remapping kleinere Speicherblöcke, teilt Speicherblöcke mit anderen Anwendungen oder sogar Auslagern Blöcke, die nicht berührt worden ist auf Festplatte.
+
+Wenn der Computer startet lädt er ein kleines Stück von einem Code, Bootloader genannt. Aufgabe des Bootloaders ist es, den Kernel zu laden und zu starten. Wenn Sie besser vertraut sind mit den Betriebssystemen wie Microsoft Windows oder Apple OS X, werden Sie wahrscheinlich nie den Bootloader sehen, aber in der UNIX-Welt ist es in der Regel sichtbar, so dass Sie die Art und Weise Ihren Computer startet zwicken.
+
+Der Bootloader lädt den Linux-Kernel, und dann die Steuerung. Linux fährt dann mit der Ausführung der Programme durch die notwendig für den Computer sind, wie eine Verbindung zum Netzwerk oder Starten eines Web-Server.
+
+1.3.2 Anwendungen
+
+Wie ein Fluglotse, ist der Kernel nicht sinnvoll, ohne etwas zu steuern. Wenn der Kernel der Turm ist, sind die Anwendungen die Flugzeuge. Anwendungen stellen Anforderungen an den Kernel und empfangen Ressourcen wie Speicher, CPU und Festplatte, im Gegenzug. Der Kernel abstrahiert auch die komplizierten Details weg von der Anwendung.
+
+Die Anwendung muss nicht wissen, ob ein Block von Festplatte auf einem Solid State Drive von Hersteller A, einer Spinn Metall-Festplatte von Hersteller B, oder sogar eine Netzwerkdateifreigabe kommt. Anwendungen folgen Sie einfach der Kernel-Application Programming Interface (API) und im Gegenzug keine Sorgen zu haben, um über die Details der Implementierung zu kümmern.
+
+Wenn wir, als Benutzer,an Anwendungen denken, neigen wir dazu, von Textverarbeitungsprogrammen, Web-Browser und E-Mail-Clients zu denken. Dem Kernel ist es egal, wenn etwas dem Benutzer zugewandt ist, ein Netzdienst das mit einem Remotecomputer kommuniziert oder mit einem internen Task spricht.
+
+Von diesem erhalten wir eine Abstraktion namens Prozess. Ein Verfahren ist nur eine Aufgabe, die eingelegt ist und durch den Kernel verfolgt. Eine Anwendung kann sogar mit mehreren Prozessen funktionieren, so dass der Kernel sich um den Betrieb der Prozesse kümmert, das Starten und Stoppen ist gewünscht, und Austeilen von Systemressourcen.
+
+1.3.3 Rolle von Open Source
+
+Linux begann 1991 als Hobbyprojekt von Linus Torvalds. Er machte die Quelle frei verfügbar und andere schlossen sich an, um diesen jungen Betriebssystem zu gestalten.Es war nicht das erste System, das von einer Gruppe entwickelt wurde, aber da es sich um ein integriertes Grund Projekt von Early Adopters Fähigkeit hatte, die Richtung des Projekts zu beeinflussen und um sicherzustellen, dass Fehler von anderen UNIX-Varianten nicht wiederholt wurden.
+
+Software-Projekte in Form von Quellcode, der einen Menschen lesbaren Satz von Computeranweisungen ist. Der Quellcode kann in jeder der Hunderte von verschiedenen Sprachen verfasst werden, Linux wurde in C geschrieben, was eine Sprache, die Geschichte teilt mit der ursprünglichen UNIX ist.
+
+Der Quellcode nicht direkt durch den Computer verstanden werden, so müssen die Maschinenbefehle von einem Compiler kompiliert werden. Der Compiler sammelt alle Quelldateien und erzeugt etwas, das auf dem Computer ausgeführt werden kann, wie zum Beispiel Linux-Kernels.
+
+Historisch gesehen wurden die meisten Software unter einer Closed-Source-Lizenz erteilt, was bedeutet, dass Sie das Recht haben, den Maschinencode zu verwenden, aber den Quellcode nicht. Oft wird gesagt, sagt die Lizenz, dass Sie nicht versuchen, Reverse Engineering der Maschinen-Code zurück zugeben, um den Quellcode, um herauszufinden, was es tut!
+
+Open-Source-nimmt eine Quelle zentrierte Sicht der Software. Die Open-Source-Philosophie ist, dass Sie ein Recht haben, die Software zu erhalten, und ihn für den eigenen Gebrauch zu modifizieren. Linux verabschiedet diese Philosophie zu großem Erfolg. Menschen nahmen die Quelle an, nahen Änderungen vor, und teilten sie mit dem Rest der Gruppe zurück.
+
+Daneben war das GNU-Projekt (GNU ist nicht Unix). GNU baute ein eigenes Betriebssystem, waren sie sehr viel effektiver an den Bau der Werkzeuge, die entlang gehen mit einem UNIX-Betriebssystem, wie zum Beispiel die Compiler und die Benutzerschnittstellen. Die Quelle war frei verfügbar, so dass Linux ihre Werkzeuge gezielt einsetzen konnte und bieten ein komplettes System. Die meisten Tools, die Teil des Linux-Systems sind kommen aus den GNU-Tools.
+
+Es gibt viele verschiedene Varianten auf Open Source, und diese werden in einem späteren Kapitel untersucht. Alle stimmen darin überein, dass Sie Zugriff auf den Quellcode haben oder in einigen Fällen müssen, verteilen Veränderungen unterscheiden werden.
+
+1.3.4 Linux Ausschüttungen
+
+Red Hat
+Scientific Linux
+OPEN SUSE
+Debian
+Ubuntu
+Linux Mint
+
+1.3.4.1
+
+Was ist eine Kommandoeingabe?
+
+Die einfachste Antwort auf die Frage: "Was ist ein Befehl?", Das ist ein Befehl ist ein Software-Programm, dass, wenn in der Befehlszeile ausgeführt wird, eine Aktion auf dem Computer durchführt.
+
+Wenn Sie einen Befehl sollten Sie diese Definition benutzen, sind Sie wirklich zu überlegen, was passiert, wenn Sie einen Befehl ausführen. Wenn Sie in einen Befehl eingeben, wird ein Prozess durch das Betriebssystem, die Eingabe zu lesen können, Daten zu manipulieren und erzeugen Ausgangs laufen. Aus dieser Perspektive führt ein Befehl zu ein Verfahren nach dem Betriebssystem, die dann den Computer veranlasst, eine Aufgabe zu erledigen.
+
+Allerdings gibt es eine andere Art der Betrachtung, was ein Befehl ist: Blick auf seine Quelle. Die Quelle ist, wo der Befehl "herkommt" und es gibt mehrere verschiedene Quellen von Befehlen innerhalb der Hülle Ihrer CLI:
+
+Befehle eingebaut, um die Schale selbst: Ein gutes Beispiel ist der Befehl cd, da es Teil der Bash-Shell. Wenn ein Benutzer den Befehl cd eingibt ist die Bash-Shell bereits ausgeführt und weiß, wie man diesen Befehl zu interpretieren muss und erfordert keine zusätzlichen Programme.
+
+Befehle, die in Dateien, die von der Shell durchsucht werden: Wenn Sie ein ls Befehl eingeben, dann die Schale durchsucht die Verzeichnisse, die in der PATH-Variablen aufgeführt sind, um zu versuchen, eine Datei zu finden, mit dem Namen ls, dass sie ausführen kann. Diese Befehle können auch durch Eingabe des vollständigen Pfades zu dem Befehl ausgeführt werden.
+
+Aliases: Ein Alias ​​kann einen eingebauten Befehl, eine Funktion oder ein Befehl sein, der in einer Datei gefunden wird. Aliase könnten nützlich für die Schaffung neuer Befehle von existierenden Funktionen und Befehle sein.
+
+Funktionen: Funktionen können auch in einem der vorhandenen Befehle, um entweder neue Befehle, überschreiben von Befehlen, um die Shell-Befehle oder in Dateien gespeichert werden. Aliase und Funktionen werden in der Regel von den Initialisierungsdateien, wenn die Schale zuerst beginnt, später in diesem Abschnitt beschrieben geladen.
+
+1.3.5 Hardware Plattformen
+
+Linux begann als etwas, das nur auf einem Computer wie Linus 'laufen würde: eine 386 mit einem bestimmten Festplatten-Controller. Die Palette der Unterstützung wuchs, da die Menschen  Unterstützung für andere Hardware Komponenten bauten. Schließlich begann Linux unterstützung für andere Chips, einschließlich Hardware, die gemacht wurden, um wettbewerbsfähige Betriebssystemen zu haben!
+
+Die Typen von Hardware wuchs von den Demütigen Intel-Chip bis zu Supercomputern. Später kleinerer Größe, Linux unterstützt, Chips wurden entwickelt, um in Consumer-Geräten, die so genannte Embedded-Geräte passten. Die Unterstützung für Linux wurde allgegenwärtig, so dass es oft einfacher war, Hardware zu bauen, um Linux zu unterstützen und verwendten Linux als Sprungbrett für Ihre kundenspezifische Software, als es um die kundenspezifische Hard- und Software von Grund auf neu zu bauen.
+
+Schließlich, Mobiltelefone und Tablets begannen mit Linux zu starten. Eine Firma, die später von Google gekauft wurde, kam auf die Android-Plattform, die ein Bündel von Linux hat und die Software muss auf einem Handy oder Tablet laufen. Dies bedeutet, dass der Aufwand, um ein Telefon auf den Markt zu bekommen wesentlich geringer ist, und die Unternehmen können ihre Zeit besser damit verbringen Innovationen auf dem Benutzer zugewandten Software anzuwenden und nicht das Rad jedes mal neu zu erfinden. Android ist heute einer der Marktführer in diesem Raum.
+
+Abgesehen von Handys und Tablets, kann Linux in vielen Consumer-Geräten gefunden werden. Wireless-Router laufen häufig auf Linux, weil es eine breite Palette von Netzwerk-Funktionen verfügt. Die TiVo ist ein digitaler Videorekorder auf Linux-Basis aufgebaut. Obwohl diese Vorrichtungen Linux im Kern haben, werden die Endbenutzer das nicht wissen. Die kundenspezifische Software interagiert mit dem Benutzer und Linux bietet die stabile Plattform.
+
+1.4 Die Wahl eines Betriebssystemes
+
+Sie haben gelernt, dass Linux ist ein UNIX-ähnliches Betriebssystem ist, was bedeutet, dass es nicht formale Zertifizierung unterzogen werden kann und kann daher nicht mit der offiziellen Handelsmarke UNIX abkommen. Es gibt viele andere Alternativen; einige sind UNIX-ähnliche und einige werden als UNIX zertifiziert. Es gibt auch Nicht-Unix-Betriebssystem wie Microsoft Windows.
+
+Die wichtigste Frage der Fragen ist, bei der Bestimmung der Konfiguration einer Maschine ist ", was diese Maschine zu tun hat?" Wenn Sie spezielle Software ausführen müssen, die nur auf Oracle Solaris läuft ausführen müssen, dann ist das, was Sie brauchen. Wenn Sie in der Lage sind, Microsoft Office-Dokumente lesen und schreiben können, dann müssen sie entweder von Windows oder etwas lauffähig Libreoffice oder Openoffice.
+
+1.4.1 Entscheidungspunkte
+
+Das erste, was Sie entscheiden müssen, ist die Rolle der Maschine. Werden Sie an der Konsole sitzen der Produktivitäts-Anwendungen oder Web-Browsing? Wenn ja, haben Sie einen Desktop. Wird die Maschine als Web-Server verwendet oder auf andere Weise in einem Server-Rack sitzt irgendwo? Du guckst dann auf einen Server.
+
+Server sind in der Regel in einem Rack und eine Tastatur und mit vielen anderen Computern zu überwachen, der Konsolenzugriff wird nur verwendet, um die Einrichtung und Fehlerbehebung des Servers herauszufinden. Der Server wird in nicht-grafischen Modus gefahren, der Ressourcen bis befreit für den eigentlichen Zweck der Computer läuft. Ein Desktop wird in erster Linie als GUI laufen.
+
+Als nächstes bestimmen sie die Funktionen der Maschine. Gibt es spezifische Software muss es ausführen oder bestimmte Funktionen soll er tun? Müssen Sie in der Lage sein, Hunderte oder Tausende dieser Maschinen gleichzeitig zu verwalten? Was ist der Fähigkeiten des Teams die Verwaltung der Computer und Software?
+
+Sie müssen auch bestimmen, die Lebensdauer und die Risikotoleranz des Servers. Betriebssysteme und Software-Upgrades sind in regelmäßigen Abständen, der so genannte Release-Zyklus. Software-Anbieter unterstützen nur ältere Versionen von Software für eine bestimmte Zeit, bevor alle Aktualisierungen, die aufgerufen werden, der Wartungszyklus (oder Lebenszyklus) nicht anbietet. Zum Beispiel große Fedora Linux Releases kommen etwa alle 6 Monate. Versionen werden als End of Life (EOL) nach 2 Hauptversionen zu einem Monat, so dass Sie zwischen 7 und 13 Monate nach der Installation von Fedora, bevor Sie ein Upgrade benötigen. Vergleichen Sie dies mit dem kommerziellen Server-Varianten, Red Hat Enterprise Linux, und Sie können gehen bis 13 Jahre benötigen, bevor ein Upgrade gebraucht wird.
+
+Die Wartung und Release-Zyklen sind wichtig, weil in einer Enterprise Server-Umgebung ist es zeitaufwendig und daher selten, um ein wichtiges Upgrade auf einem Server zu tun. Stattdessen wird der Bediener selbst ersetzt, wenn es erhebliche Verbesserungen oder Alternativen zu der Anwendung gibt, die ein Betriebssystem-Upgrade erforderlich machen. In ähnlicher Weise ist ein langsamer Release-Zyklus wichtig, weil Anwendungen erzielen oft die aktuelle Version des Betriebssystems und Sie sind der Overhead von der Aktualisierung des Servers und der Betriebssysteme ständig vermeiden wollen. Es gibt eine Menge Arbeit in dem Upgrades eines Servers beteiligt sind, und die Serverfunktion hat oft viele Anpassungen vorgenommen, die schwer anzuschließen sind auf einen neuen Server. Dies erfordert viel mehr Tests, als wenn nur die Anwendung aktualisiert wird.
+
+ Wenn sie Softwareentwicklung oder die traditionellen Desktop-Arbeit durchführen wollen sie die letzte Software behalten. Neuere Software bietet Verbesserungen sowohl Funktionalität und Aussehen, die zu mehr Genuss aus der Nutzung des Computers beiträgt. Ein Desktop speichert häufig ihre Arbeit auf einem Remote-Server, so dass der Desktop händelbar ist und dem neueren Betriebssystem aufsetzen, wobei Störungen anfallen können.
+
+Individuelle Software-Versionen können als Beta oder stabiler charakterisiert werden. Eine der großen Sachen über ein Open-Source-Entwickler ist, dass Sie Ihre neueste Software als Lösung anbieten und schnell Feedback von Anwendern zurück bekommen. Wenn ein Software-Version ist in einem Zustand, die viele neue Funktionen beinhaltet, die nicht streng getestet wurde, ist es in der Regel als Beta bezeichnet. Nachdem diese Funktionen getestet wurden, bewegt sich die Software auf einen stabilen Punkt. Wenn Sie die neuesten Funktionen benötigen, dann sind Sie für eine Verteilung, die eine schnelle Release-Zyklus hat und macht es einfacher, Beta-Software nutze zu machen. Auf der Serverseite, möchte man neue stabile Softwarefunktionen finden die auch funktionsfähig sind und getestet wurden.
+
+Eine anderes verwandtes Konzept ist die Abwärtskompatibilität. Dies bezieht sich auf die Fähigkeit, für eine späteres Betriebssystem mit einer Software für frühere Versionen hergestellt kompatibel zu sein. Dieses ist in der Regel ein Problem, wenn Sie Ihr Betriebssystem aktualisieren müssen, sind aber nicht in der Lage, die Anwendungssoftware zu aktualisieren.
+
+Natürlich sind die Kosten immer ein Faktor. Linux selbst könnte frei sein, aber Sie brauchen, um für Unterstützung zu zahlen, je nachdem, welche Optionen Sie wählen. Microsoft hat Server Lizenzkosten und zusätzliche Support-Kosten über die gesamte Lebensdauer des Servers. Ihre ausgewählten Betriebssysteme möglicherweise nur auf eine bestimmte Auswahl an Hardware, die weiter wirkt sich auf die Kosten auslaufen.
+
+1.4.2 Microsoft Windows
+
+Die Microsoft-Welt teilt die Betriebssysteme je nach Zweck der Maschine ein: Desktop oder Server? Die Windows-Desktop-Edition hat verschiedene Namensgebung mit der aktuellen Version (als dies geschrieben wurde) als einfach nur Windows 8. Neue Versionen der Desktopversion kommen alle 3-5 Jahre auf den Markt und werden in der Regel viele Jahre lang unterstützt. Abwärtskompatibilität ist auch eine Priorität für Microsoft, ging sogar so weit, dass der Virtual Maschinen-Technologien zu bündeln, so dass Benutzer ältere Softwareanwendungen benutzen können.
+
+In dem Server-Bereich, gibt es Windows Server, die derzeit (in diesem Schreiben) bei 2012-Version ist, um das Release-Datum zu bezeichnen. Der Server läuft auf GUI, aber größtenteils als Wettbewerbs Reaktion auf Linux, hat erstaunliche Fortschritte in der Befehlszeile scripting Fähigkeiten durch Powershell gefertigt. Sie können auch den Server aussehen wie ein Desktop mit den optionalen Desktop Experience-Paket.
+
+1.4.3 Apple OS X
+
+Apfel macht das OS X-Betriebssystem , das UNIX Zertifizierung durchlaufen hat. OS X wird basiert teilweise von der Software aus dem FreeBSD-Projekt.
+
+Im Moment ist OS X in erster Linie ein Desktop-Betriebssystem, aber es gibt optionale Pakete, die mit dem Management von Netzwerk-Services, die viele OS X Desktop zur Zusammenarbeit zu ermöglichen, wie zum Beispiel helfen, Dateien gemeinsam zu nutzen oder eine Netzwerkanmeldung vereinfacht.
+
+OS X auf dem Desktop ist in der Regel eine persönliche Entscheidung, wie viele das System einfacher zu bedienen finden. Die wachsende Beliebtheit von OS X hat gesunde Unterstützung von Software-Anbieter gewährleistet. OS X ist auch sehr beliebt in der Kreativwirtschaft, wie beispielsweise in der Video-Produktion. Dies ist ein Bereich, wo die Anwendungen betrieben werden für die Betriebssystem-Entscheidung, und damit die Hardware-Wahl, da OS X läuft auf einer Apple-Hardware.
+
+1.4.4 BSD 
+
+Es gibt mehrere Open-Source BSD (Berkeley Software Distribution) Projekte, wie OpenBSD, FreeBSD und NetBSD. Es handelt sich um Alternativen zu Linux in vielerlei Hinsicht, da sie eine große Menge an gemeinsamen Software nutzen. BSDs sind in der Regel in der Serverfunktion implementiert, aber es gibt auch Varianten wie GNOME und KDE, die für Desktop-Rollen entwickelt wurden.Es gibt mehrere Open-Source BSD (Berkeley Software Distribution) Projekte, wie OpenBSD, FreeBSD und NetBSD. Es handelt sich um Alternativen zu Linux in vielerlei Hinsicht, da sie eine große Menge an gemeinsamen Software zu nutzen. BSDs sind in der Regel in der Serverfunktion implementiert, aber es gibt auch Varianten wie GNOME und KDE, die für Desktop-Rollen entwickelt wurden.
+
+1.4.5 Andere kommerzielle UNIXes
+
+kommerzielle sind: 
+Oracle Solaris, IBM AIX, HP-UX
+
+Jede dieser läuft auf Hardware von ihrem jeweiligen Schöpfer. Die Hardware ist in der Regel groß und mächtig und bietet Features wie Hot-Swap-CPU und Speicher oder die Integration mit Legacy-Mainframe-Systeme auch vom Verkäufer angeboten.
+
+Es sei denn, die Software erfordert die spezifische Hardware oder die Anforderungen der Anwendung einige der Redundanzen die in der Hardware integriert sind, neigen die meisten Menschen dieser Optionen zu wählen, weil sie ohnehin schon sind Anwender von Produkten der Firma. Zum Beispiel, IBM AIX läuft auf einer Vielzahl von IBM-Hardware und teilt Hardware mit Großrechner. AIX finden Sie in Unternehmen, die bereits einen großen IBM-Fußabdruck oder diese die IBM Software wie WebSphere nutzen.
+
+1.4.6 
+
+1.4.7 Android
+
+Android, Google gesponsert, ist der weltweit beliebteste Linux-Vertrieb. Es ist grundlegend von seinem Ursprung. Linux ist ein Kernel, und viele der Befehle, die in diesem Kurs behandelt werden, sind tatsächlich ein Teil des GNU (GNU ist nicht Unix) Paket. Das ist, warum einige Leute darauf bestehen, den Begriff GNU / Linux allein anstelle von Linux.
+
+Android nutzt die Dalvik Virtual Machine mit Linux und bietet eine robuste Plattform für mobile Geräte wie Handys und Tablets. Allerdings fehlen die traditionellen Pakete, die oft mit Linux verteilt sind (wie GNU und Xorg), ist in der Regel mit Android Desktop-Linux-Vertrieben kompatibel sind.
+
+Diese Inkompatibilität bedeutet, dass ein RedHat oder Ubuntu Benutzer keine Software herunterladen kann aus dem Google Play Store. Ebenso wird ein Terminal-Emulator im Android fehlen viele der Befehle seines Linux Pendants. Es ist jedoch möglich, BusyBox mit Android zu benutzen , um das Arbeit mit Befehlen zu ermöglichen.
+
+Chapter 1 Fertig!
