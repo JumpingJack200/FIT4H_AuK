@@ -158,3 +158,102 @@ Android nutzt die Dalvik Virtual Machine mit Linux und bietet eine robuste Platt
 Diese Inkompatibilität bedeutet, dass ein RedHat oder Ubuntu Benutzer keine Software herunterladen kann aus dem Google Play Store. Ebenso wird ein Terminal-Emulator im Android fehlen viele der Befehle seines Linux Pendants. Es ist jedoch möglich, BusyBox mit Android zu benutzen , um das Arbeit mit Befehlen zu ermöglichen.
 
 Chapter 1 Fertig!
+
+Chapter 2 Anfang:
+
+2.1 Einführung
+
+Open Source Anwendungen und Tools werden wir mit vertraut. Es wird auch über Open-Source-Software und Lizenzen gesprochen.
+
+Amazon, Facebook, Google, Netflix, diese Lizenzen laufen auf Linux
+
+2.2 Wichtigsten Wissensgebiete:
+
+Desktop-Anwendungen
+Serveranwendungen
+Mobile Anwendungen
+EntwicklungsSprachen
+Paketverwaltungswerkzeuge und Repositories
+
+folgende Liste von Dateien, Begriffe, Anwendungen:
+
+OpenOffice.org, LibreOffice, Thunderbird, Firefox
+Blender, Gimp, Audacity, ImageMagick
+Apache, MySQL, PostgreSQL
+NFS, Samba, OpenLDAP, Postfix, DNS, DHCP
+C, Perl, shell, Python, PHP
+
+Wichtigsten Wissensgebiete:
+
+Lizenzen, Freie Software Fundament (FSF) und Open-Source-Initiative ( OSI)
+
+folgende Liste von Dateien, Begriffe und Anwendungen:
+
+GPL, BSD, Kreative Sachen, Freie Software, Open-Source-Software, FOSS, FLOSS ,
+Open Source Geschäftsmodelle
+
+2.3 die Wichtigsten Open-Source Anwendungen
+
+Der Linux-Kernel kann auf einer Vielzahl von Softwaren auf vielen Hardware-Plattformen laufen. Ein Computer kann als Server, das heißt, sie umfassen vor allem Daten über die anderen Namen, oder kann als Desktop, was bedeutet, ein Benutzer wird direkt mit ihm intergriert handeln. Die Maschine kann Software ausführen, oder es kann als Entwicklungsmaschine in den Prozess der Erstellung von Software verwendet werden. Sie können sogar mehrere Rollen verwenden, da es keine Unterscheidung nach der Rolle der Maschine Linux macht; es ist nur eine Frage der Projektierung, die Anwendungen laufen zu lassen.
+
+Ein Vorteil davon ist, dass Sie fast alle Aspekte einer Produktionsumgebung auf abgespeckten Hardware nutzen können, was Kosten und Zeit spart, von der Entwicklung, dem Testen einer Überprüfung. das Lernen von Linux, können Sie die gleichen Server-Anwendungen auf Ihrem Desktop oder kostengünstig virtuellen Server verwenden, der auf einem großen Internet Service Provider betrieben werden kann. Natürlich werden Sie nicht in der Lage sein, um die Lautstärke eines großen Anbieters zu umgehen, da sie sehr viel teurere Hardware haben. Aber Sie können fast jede Konfiguration ohne leistungsfähige Hardware oder Server-Lizenzen simulieren.
+
+Linux-Software fällt in der Regel in eine von drei Kategorien:
+
+Server-Software - 
+Software, die keine direkte Interaktion mit dem Monitor und Tastatur an der Maschine auf der es läuft. Sein Zweck ist es,um Informationen zu anderen Computern zu schicken, die so genannten "Clienten" . Manchmal Serversoftware darf nicht auf andere Computer zu sprechen, sondern wird einfach dasitzen und Daten "Crunch".
+Desktop-Software - 
+ein Web-Browser, Texteditor, Musik-Player oder andere Software, die Sie mit zu interagieren. In vielen Fällen, wie zum Beispiel einen Web-Browser, wird die Software auf einem Server, auf dem anderen Ende spricht und der Interpretation der Daten für Sie. Hier ist die Desktop-Software der "Kunde/Client".
+Werkzeuge - 
+eine lose Gruppe von Software, die, um es einfacher, um Ihr System zu verwalten. Vielleicht haben Sie ein Werkzeug, das Sie Ihr Display konfigurieren hilft, oder etwas, das eine Linux-Shell bietet oder auch anspruchsvollere Werkzeuge konvertiert einen Sourcecode damit der Computer es ausführen kann.
+
+Darüber hinaus werden wir mobile Anwendungen betrachten, vor allem zum Nutzen der LPI-Prüfung. Eine mobile Anwendung hat die Ähnlichkeit einer DesktopAnwendung, aber es läuft auf einem Telefon oder Tablet stattdessen auf einem Desktop Computer.
+
+Jede Aufgabe, die Sie in Linux zu tun möchten, kann wahrscheinlich durch eine beliebige Anzahl von Anwendungen untergebracht werden. Es gibt viele Web-Browser, viele Web-Server, und viele Texteditoren (der Nutzen der einzelnen sind das Thema von vielen UNIX heiligen Kriegen). Das ist nicht anders als die geschlossene-Source-Welt. Allerdings ist ein Vorteil von Open Source, dass, wenn jemand, der nicht wie die Art und Weise ihrer Web-Server arbeitet, können sie beginnen den Aufbau ihrer eigenen Software. Eine Sache, die Sie lernen können, wie Sie mit Linux Fortschritten ihre eigene Software zu evaluieren. Manchmal werden Sie mit dem Hauptpacket mitgehen, manchmal möchten Sie über den blutigen Rand hinwegsehen.
+
+2.3.1 Server Applikationen
+
+2.3.2
+2.3.3
+2.3.4
+2.4
+2.4.1
+
+2.4.2 Mehrere Begriffe für die selbe Sache
+
+Anstatt über die Feinheiten der Open Source vs. Free Software zu stehen, hat die Gemeinde begonnen, alles als freie und Offene Source Software anzubieten(FOSS). Das englische Wort "frei" kann "frei wie beim Essen" bedeuten (wie in keinerlei Kosten) oder "frei wie in der Rede" (wie in der keine Beschränkungen sind).Diese Zweideutigkeit hat auf die Aufnahme des Wortes anhören, um zu dieser Definition beziehung zu führen. Damit wir am Ende mit Freie/ anhören / Offene Source Software (FLOSS).
+
+Während diese Begriffe praktisch sind, sie die Unterschiede zwischen den zwei Denkweisen. Zumindest, wenn Sie FOSS-Software nutzen, wissen Sie, Sie müssen dafür nicht bezahlen und sie können es weiter verbreiten, wie sie möchten.
+
+2.4.3 Andere Lizenzmodelle
+
+FOSS-Lizenzen sind meist auf Software realisiert. Die Menschen haben Arbeiten wie Zeichnungen und Pläne unter FOSS-Lizenzen gestellt, aber das war nicht die Absicht.
+
+Als Software in der Öffentlichkeit platziert wurde, hat der Autor auf alle Rechte verzichtet, einschließlich des Urheberrechts an der Arbeit. In einigen Ländern ist dies die Standard wenn die Arbeit von einer Regierungsbehörde durchgeführt wird. In einigen Ländern wird urheberrechtlich geschütztes Werk gemeinfrei gemacht, nachdem der Autor gestorben ist und eine lange Wartezeit abgelaufen ist.
+
+Die Creative Commons (CC) Organisation hat die Creative Commons-Lizenzen erstellt, die die Absichten hinter FOSS-Lizenzen für nicht Software-Einheiten anzugehen versuchten, erstellt. CC-Lizenzen können auch verwendet werden, um eine kommerzielle Nutzung beschränken, wenn dies der Wunsch des Urhebers war. 
+
+Die CC-Lizenzen sind:
+
+Namensnennung (CC BY) - ähnlich wie die BSD-Lizenz, können Sie CC BY-Gehalt für jeden Einsatz verwenden, sondern müssen den Urheberrechtsinhaber bezahlen
+
+Zuschreibung Aktienvermögen (CC BY-SA) - 
+eine Copyleft-Version als Zuschreibungs Lizenz. Abgeleitete Werke müssen unter der gleichen Lizenz geteilt werden, ähnlich wie bei den freien Softwareidealen
+
+Zuschreibung keiner-derivs (CC BY-ND) - 
+können Sie den Inhalt unter den gleichen Bedingungen verwenden, wie bei CC-BY, aber sie können es nicht verändern
+
+Zuschreibung keines Handelns (CC BY-NC) - 
+genau wie bei CC BY, aber Sie können es nicht für kommerzielle Zwecke benutzen
+
+Zuschreibung -keiner Handelns (CC-BY-NC-SA) - baut auf der CC BY-NC-Lizenz auf, sondern setzt voraus, dass Sie die Änderungen unter der gleichen Lizenz freigeben.
+
+Zuschreibung-NonCommercial-No-derivs (CC-BY-NC-ND) - 
+Sie geben den Inhalt für nicht kommerzielle Zwecke aus, aber Menschen können nicht den Inhalt ändern.
+
+Keine Rechte vorbehalten (A0) - Dies ist die kreative Commons-Version von der Öffentlichkeitsdomäne.
+
+
+Die Lizenzen können vor allem als ShareAlike oder keine Beschränkungen zusammengefasst werden, und ob oder nicht kommerzielle Nutzung oder Ableitungen sind gestattet.
+
+2.4.4
