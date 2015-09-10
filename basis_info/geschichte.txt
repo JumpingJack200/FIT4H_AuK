@@ -211,7 +211,11 @@ Darüber hinaus werden wir mobile Anwendungen betrachten, vor allem zum Nutzen d
 
 Jede Aufgabe, die Sie in Linux zu tun möchten, kann wahrscheinlich durch eine beliebige Anzahl von Anwendungen untergebracht werden. Es gibt viele Web-Browser, viele Web-Server, und viele Texteditoren (der Nutzen der einzelnen sind das Thema von vielen UNIX heiligen Kriegen). Das ist nicht anders als die geschlossene-Source-Welt. Allerdings ist ein Vorteil von Open Source, dass, wenn jemand, der nicht wie die Art und Weise ihrer Web-Server arbeitet, können sie beginnen den Aufbau ihrer eigenen Software. Eine Sache, die Sie lernen können, wie Sie mit Linux Fortschritten ihre eigene Software zu evaluieren. Manchmal werden Sie mit dem Hauptpacket mitgehen, manchmal möchten Sie über den blutigen Rand hinwegsehen.
 
-2.3.1 Server Applikationen
+2.3.1 Desktop Anwendungen
+
+
+
+
 
 2.3.2
 2.3.3
@@ -256,4 +260,129 @@ Keine Rechte vorbehalten (A0) - Dies ist die kreative Commons-Version von der Ö
 
 Die Lizenzen können vor allem als ShareAlike oder keine Beschränkungen zusammengefasst werden, und ob oder nicht kommerzielle Nutzung oder Ableitungen sind gestattet.
 
-2.4.4
+2.4.4 Offene Quelle Geschäftsmodelle
+
+
+
+3.1 Einweisung
+
+Das Leben eines System Administrators
+
+Mehr als nur Serverarbeit
+- Emails und Dokumentationen scxhreiben
+
+3.2 Linux Grundlagen für Prüfungsziele
+
+ICT Fähigkeiten und Arbeiten mit Linux
+
+Desktop Fähigkeiten, Kommandozeile, industrielles Benutzen und virtualisieren
+
+Wie man Passwörter benutzt, Konsole benutzt usw..
+
+3.3 Graphische Oberfläche gegen keine Graphische Oberfläche
+
+Graphische Oberfläche:
+
+Man hat Menüpunkte, Größe kann verändert werden und man kann sich umherbewegen.
+
+Web Browser, Paint und Email kann verwendet werden.
+
+Die nicht graphisce Oberfläche startet mit einem Text Editor für den Login.
+
+Benutzername und Passwort muss dort eingegeben werden.
+
+Es gibt keine Fenster zum bewegen.
+Server laufen auf dieser Ebene ebenfalls.
+
+MOTD = Message of the day
+
+3.4 Kommandozeile
+
+Jeder Linux desktop ist verschieden, man schaut sich um nach " terminal oder e-term"
+
+beides sind graphische Hüllen, unterschiedlich in ihrer Funktionsweise.
+
+Wenn man ein Suchtool benutzt "Ubuntu one", kann man nach Terminal suchen.
+
+Dieses Tool kann damit verwendet werden um schneller auf das Ergebnis zu kommen, nachdem man sucht.
+
+3.5 Virtualisierung und Wolkenrechnen
+
+Linux ist ein Mehruser operationssystem, woran mehrere Benutzer gleichzeitig arbeiten können.
+
+Virtualisierung ist der Prozess, wo ein physikalischer PC, namens "host", mehrere kopien von der Operationssystem zum laufen bringen kann als "gast".
+
+Der Hostprozess heißt " hypervisor" welches die Kontrolle darüber verwaltet.
+
+Linux spielt eine eine Schlüsselrolle in Wolkenarbeiten ( cloud computing).
+
+Die meisten virtuellen Server basieren auf einer Linux kernel und Linux benutzt im Hintergrund, Anwendungen um das ganze zu steuern.
+
+3.6 Linux benutzen für die Arbeit
+
+Die Standardanwendungen sind:
+
+Textverarbeitungssystem
+Kalkulationstabellen
+Präsentationspakete
+Web-Browser
+
+OpenOffice, oder das aktivere LibreOffice, kümmert sich um die ersten drei Rollen.
+
+Textverarbeitungssystem ( word)
+
+Kalkulationstabellen ( Excel)
+
+Präsentationspakete ( PowerPoint)
+
+Libreofficewriter kann texte, graphen, datentabellen uvm. verwalten.
+
+Man kann vieles miteinander verbinden , tabellen und daten z.b.
+
+Libreoffice kann auch mit anderen Formaten arbeiten, wie Microsoft Office oder Adobe Document Format (PDF) Dateien.
+
+Linux ist das beste für den Bürger um Firefox oder Google Chrome Browser zu verwenden.
+
+können Sie erwarten, um die neueste Software für Ihre Plattform und rechtzeitigen Zugang zu Fehlerkorrekturen und neue Funktionen zur Verfügung zu haben. Einige Plugins wie Adobe Flash, kann nicht immer korrekt sein, da die auf ein anderes Unternehmen mit unterschiedlichen Prioritäten setzen.
+
+3.7 Seinen eigenen PC sicher halten
+
+Linux PC sicher halten
+
+sichere Passwörter verwenden auf seiner eigenen Maschine
+
+mindestens 10 Zeichen gemixt mit Zahlen, Zeichen und Symbole
+
+Pakete "KeePassX" um Passwörter zu generieren.
+
+Nachdem kann man unbeschwert Updates laden
+
+Einfach auf installieren klicken danach ist man auf dem aktuellen Stand.
+
+Eine "Firewall" kann verhindern das Netzwerk-Traffic eintrifft und Linux stellt sowas bereit.
+
+Wenn man Ubuntu benutzt "gufw" ist ein graphische Schnittstelle für Ubuntus"unkomplizierte Firewall"
+
+Einfach auf "on" stellen und der ganze Verkehr wird gestoppt, außer es wird iniziert. 
+Man kann Dinge erlauben indem man auf das + klickt bzw. anhakt.
+
+Man verwendet "iptables", welche in Firewall System integriert ist.
+
+GUI wird verwendet um effektiven Schutz zu gewährleisten damit die Oberfläche "iptables" schützt.
+
+3.8 Eigenschutz
+
+Wenn man das Internet benutzt hinterlässt man Abdrücke.
+Viele diese Informationen gehen verloren, manche werden für Statistiken verwendet.
+
+Auf jeder Seite verschiedene Passwörter benutzen , damit vor Hackangriffen andere Seiten weiterhin geschützt bleiben.
+
+"KeePassX" benutzen.
+
+Cookies tracken dich, egal wohin du surfst.
+
+"Tor Browser" Tor bedeutet "The Onion Router" damit wird man nicht öffentlich bekannt gemacht sondern die Herkunft wird im verborgenen gehalten.
+
+ Der Browser, der mit dem Paket kommt, ist eine abgespeckte Version, die nicht einmal Skripte ausführt, so dass einige Websites möglicherweise nicht richtig laufen können. Allerdings ist es der beste Weg, zu verbergen Ihre Identität, wenn Sie dies wünschen.
+
+
