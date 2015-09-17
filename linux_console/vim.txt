@@ -1,0 +1,71 @@
+In der console: vimtutor ( Enter) öffnet die Hilfe dafür
+
+cursor bewegen:
+ - h(nach links),
+ - j(nach unten),
+ - k(nach oben),
+ - l(nach rechts)
+
+ESC-Taste um nach unten zu gelangen
+	- :q! beendet den Editor
+	- x löscht einen Buchstaben
+	- :wq! speichert und beendet den Editor
+	- i/a anfügen bzw. zum Einfügen in den Editor
+
+vim tutor:
+	- vim = Aufruf des Editors
+	- tutor = ist die zu editierende Datei
+
+vim Dateiname 
+	- ausführen im Editor bzw. öffnet die Datei
+
+dw 
+	- auf einem Wort löscht es komplett
+
+d$ 
+	- ( Umschalt + 4) löscht nach einem Satz alles dahinter komplett weg
+
+d 
+	- der Löschoperator
+
+Bewegung 
+	- auf das was gelöscht werden soll
+w - bis zum Beginn des nächsten Wortes OHNE dessen erstes Zeichen
+e - zum Ende des aktuellen Wortes MIT dessen letztem Zeichen
+$ - zum Ende der Zeile MIT dem letzten Zeichen
+
+2w 
+	- um den Cursor 2 Wörter vorwärts zu bewegen
+
+3e 
+	- um den Cursor zum Ende des dritten Wortes zu bewegen
+
+Tippe 0(NUll)
+	- um zum Anfang der Zeile zu gelangen 
+
+2dw 
+	- um die ersten zwei Wörter in Großbuchstaben zu löschen
+
+dd 
+	- ganze zeile löschen
+
+2dd 
+	- löscht 2 ganze zeilen weg
+
+u 
+	- um die letzten Kommandos rückgängig zu machen	
+oder 
+U 
+	- um eine ganze Zeile wiederherzustellen
+
+Strg+R gedrückt halten 
+	- um die Rückgängigmachungen Rückgängig zu machen
+
+dd drücken
+	- um die Zeile zu löschen und sie in einem vim-register zu speichern.
+	
+p 
+	- um die Zeile unterhalb des Cursors zu platzieren
+
+rx tippen 
+	- um das Zeichen unter dem Cursor durch x(einen Buchstaben) zu ersetzen. 
