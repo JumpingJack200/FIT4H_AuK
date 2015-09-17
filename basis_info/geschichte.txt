@@ -385,4 +385,20 @@ Cookies tracken dich, egal wohin du surfst.
 
  Der Browser, der mit dem Paket kommt, ist eine abgespeckte Version, die nicht einmal Skripte ausführt, so dass einige Websites möglicherweise nicht richtig laufen können. Allerdings ist es der beste Weg, zu verbergen Ihre Identität, wenn Sie dies wünschen.
 
+ Kapitel 4
+
+ 4.3 
+
+ CLI ( Kommmando zeilen Interface) ist ein textbasiertes Interface auf dem PC
+ das was der User eingibt in die Shell wird an einem Terminal ausgegeben.
+ Bei einer Falscheingabe kommt eine Fehlermeldung.
+
+4.4
+
+
+
+
+
+
+
 
