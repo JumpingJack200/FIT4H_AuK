@@ -395,6 +395,15 @@ Cookies tracken dich, egal wohin du surfst.
 
 4.4
 
+GUI ( Grafische Benutzeroberfläche )
+ein Web-Server akzeptiert es nicht sofort.
+Es gibt zwei Wege ( based Terminal und virtual Terminal)
+
+CentOS Maschine kannst du auf verschiedene Menüs klicken und gelangst sofort 
+
+
+
+
 
 
 
